@@ -46,8 +46,12 @@ export default function RootLayout({ children }) {
     return (
         <html lang="ko" className={`${inter.variable} ${outfit.variable}`}>
             <head>
-                {/* Google AdSense - 실제 ID로 교체 필요 */}
-                {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> */}
+                {/* Google AdSense */}
+                <script
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8449613598033027"
+                    crossOrigin="anonymous"
+                />
 
                 {/* 구조화된 데이터 */}
                 <script
