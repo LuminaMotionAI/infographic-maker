@@ -15,6 +15,8 @@ export default function Footer() {
             <div className="footer-links">
                 <Link href="/about" className="footer-link">서비스 소개</Link>
                 <Link href="/guide" className="footer-link">사용 가이드</Link>
+                <Link href="/tips" className="footer-link">제작 팁</Link>
+                <Link href="/examples" className="footer-link">예제</Link>
                 <Link href="/faq" className="footer-link">FAQ</Link>
                 <Link href="/terms" className="footer-link">이용약관</Link>
                 <Link href="/privacy" className="footer-link">개인정보처리방침</Link>

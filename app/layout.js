@@ -46,7 +46,10 @@ export default function RootLayout({ children }) {
     return (
         <html lang="ko" className={`${inter.variable} ${outfit.variable}`}>
             <head>
-                {/* Google AdSense */}
+                {/* Google AdSense Account Verification */}
+                <meta name="google-adsense-account" content="ca-pub-8449613598033027" />
+
+                {/* Google AdSense Script */}
                 <script
                     async
                     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8449613598033027"

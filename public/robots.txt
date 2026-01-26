@@ -1,0 +1,15 @@
+# robots.txt for infographic-maker.vercel.app
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://infographic-maker.vercel.app/sitemap.xml
+
+# Google AdSense Crawler
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
