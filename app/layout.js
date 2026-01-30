@@ -56,6 +56,20 @@ export default function RootLayout({ children }) {
                     crossOrigin="anonymous"
                 />
 
+                {/* Google Analytics (gtag.js) */}
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-32FNB67FKC"></script>
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+
+                            gtag('config', 'G-32FNB67FKC');
+                        `
+                    }}
+                />
+
                 {/* 구조화된 데이터 */}
                 <script
                     type="application/ld+json"
