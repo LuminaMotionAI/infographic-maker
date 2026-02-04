@@ -3,7 +3,7 @@
 /*
  * 인포그래픽 예제 갤러리 페이지
  * - 다양한 활용 사례 제공
- * - 풍부한 콘텐츠로 애드센스 승인에 도움
+ * - 풍부한 콘텐츠로 SEO 및 애드센스 승인에 도움
  */
 
 import { useState } from 'react';
@@ -15,7 +15,7 @@ const examples = [
         id: 1,
         title: '2024년 매출 성과',
         category: '비즈니스',
-        description: '분기별 매출 성과를 한눈에 보여주는 비즈니스 인포그래픽 예시입니다. 핵심 KPI를 강조하고 전년 대비 성장률을 효과적으로 전달합니다.',
+        description: '분기별 매출 성과를 한눈에 보여주는 비즈니스 인포그래픽 예시입니다. 핵심 KPI를 강조하고 전년 대비 성장률을 효과적으로 전달합니다. 투자자 보고서나 경영진 프레젠테이션에 적합합니다.',
         data: [
             { label: '연간 매출', value: '150', unit: '억원' },
             { label: '성장률', value: '+45', unit: '%' },
@@ -30,7 +30,7 @@ const examples = [
         id: 2,
         title: '마케팅 캠페인 결과',
         category: '마케팅',
-        description: '디지털 마케팅 캠페인의 성과를 시각화한 예시입니다. CTR, 전환율, ROI 등 핵심 마케팅 지표를 명확하게 보여줍니다.',
+        description: '디지털 마케팅 캠페인의 성과를 시각화한 예시입니다. CTR, 전환율, ROI 등 핵심 마케팅 지표를 명확하게 보여주어 캠페인의 효과를 한눈에 파악할 수 있습니다.',
         data: [
             { label: '노출 수', value: '500', unit: '만' },
             { label: 'CTR', value: '3.5', unit: '%' },
@@ -45,7 +45,7 @@ const examples = [
         id: 3,
         title: '고객 만족도 조사',
         category: '리서치',
-        description: '고객 만족도 설문조사 결과를 인포그래픽으로 정리한 예시입니다. 만족도 점수와 NPS를 효과적으로 전달합니다.',
+        description: '고객 만족도 설문조사 결과를 인포그래픽으로 정리한 예시입니다. NPS 점수와 재이용 의향 등 고객 경험 지표를 효과적으로 전달합니다.',
         data: [
             { label: '전체 만족도', value: '4.5', unit: '/5' },
             { label: 'NPS 점수', value: '+67', unit: '' },
@@ -60,7 +60,7 @@ const examples = [
         id: 4,
         title: '환경 캠페인 성과',
         category: '비영리',
-        description: 'ESG 활동이나 환경 캠페인의 성과를 보여주는 인포그래픽입니다. 임팩트 지표를 효과적으로 전달합니다.',
+        description: 'ESG 활동이나 환경 캠페인의 성과를 보여주는 인포그래픽입니다. 탄소 절감량, 나무 심기 실적 등 임팩트 지표를 효과적으로 전달합니다.',
         data: [
             { label: '탄소 절감', value: '1,200', unit: '톤' },
             { label: '나무 심기', value: '5,000', unit: '그루' },
@@ -75,7 +75,7 @@ const examples = [
         id: 5,
         title: '온라인 강의 성과',
         category: '교육',
-        description: '온라인 교육 플랫폼이나 강의의 성과를 보여주는 예시입니다. 수강생 수, 완료율, 만족도 등을 시각화합니다.',
+        description: '온라인 교육 플랫폼이나 강의의 성과를 보여주는 예시입니다. 수강생 수, 완료율, 만족도 등 교육 효과를 시각화합니다.',
         data: [
             { label: '총 수강생', value: '25,000', unit: '명' },
             { label: '완료율', value: '78', unit: '%' },
@@ -131,6 +131,7 @@ export default function ExamplesPage() {
                     <span className="logo-text">InfoMaker</span>
                 </Link>
                 <nav className="header-nav">
+                    <Link href="/about" className="nav-link">소개</Link>
                     <Link href="/guide" className="nav-link">가이드</Link>
                     <Link href="/tips" className="nav-link">팁</Link>
                     <Link href="/faq" className="nav-link">FAQ</Link>
@@ -144,6 +145,16 @@ export default function ExamplesPage() {
                     다양한 분야에서 활용할 수 있는 인포그래픽 예제를 확인하세요.
                     각 예제를 클릭하면 동일한 스타일로 바로 만들어볼 수 있습니다.
                 </p>
+
+                {/* 예제 소개 섹션 */}
+                <section className="content-section">
+                    <h2>인포그래픽 활용 예시</h2>
+                    <p>
+                        InfoMaker로 만들 수 있는 다양한 인포그래픽 예시를 살펴보세요.
+                        비즈니스 보고서부터 SNS 콘텐츠까지, 각 분야에 최적화된 디자인을 제공합니다.
+                        아래 예제들을 참고하여 나만의 인포그래픽을 만들어보세요.
+                    </p>
+                </section>
 
                 {/* 카테고리 필터 */}
                 <div className="category-filter">
@@ -211,6 +222,10 @@ export default function ExamplesPage() {
                 {/* 활용 가이드 */}
                 <section className="content-section usage-guide">
                     <h2>📌 인포그래픽 활용 가이드</h2>
+                    <p>
+                        인포그래픽은 다양한 목적과 채널에서 활용될 수 있습니다.
+                        아래 가이드를 참고하여 목적에 맞는 인포그래픽을 만들어보세요.
+                    </p>
 
                     <div className="guide-grid">
                         <div className="guide-item">
@@ -218,6 +233,7 @@ export default function ExamplesPage() {
                             <p>
                                 분기별 실적, 연간 성과, KPI 달성률 등을 시각화하여
                                 보고서의 가독성을 높이고 핵심 내용을 효과적으로 전달하세요.
+                                숫자로 가득 찬 보고서보다 인포그래픽 한 장이 더 설득력 있습니다.
                             </p>
                         </div>
                         <div className="guide-item">
@@ -225,23 +241,44 @@ export default function ExamplesPage() {
                             <p>
                                 Instagram, Facebook, LinkedIn 등 소셜 미디어에
                                 데이터 기반 콘텐츠를 공유하여 참여율을 높이세요.
+                                시각 자료는 텍스트보다 공유율이 40배 높다는 연구 결과도 있습니다.
                             </p>
                         </div>
                         <div className="guide-item">
                             <h3>🎓 교육 자료</h3>
                             <p>
                                 복잡한 통계나 연구 결과를 학생들이 이해하기 쉬운
-                                시각 자료로 변환하세요.
+                                시각 자료로 변환하세요. 시각화된 정보는 기억 유지율이
+                                65% 더 높습니다.
                             </p>
                         </div>
                         <div className="guide-item">
                             <h3>📧 뉴스레터</h3>
                             <p>
                                 이메일 뉴스레터에 인포그래픽을 삽입하여
-                                오픈율과 클릭율을 높이세요.
+                                오픈율과 클릭율을 높이세요. 시각적으로 매력적인 이메일은
+                                독자의 관심을 더 오래 유지합니다.
                             </p>
                         </div>
                     </div>
+                </section>
+
+                {/* 제작 팁 섹션 */}
+                <section className="content-section">
+                    <h2>💡 인포그래픽 제작 팁</h2>
+                    <p>
+                        효과적인 인포그래픽을 만들기 위한 핵심 팁을 알아보세요.
+                    </p>
+                    <ul>
+                        <li><strong>핵심 데이터만:</strong> 3-4개의 가장 중요한 데이터만 표시하세요.</li>
+                        <li><strong>명확한 제목:</strong> 인포그래픽이 전달하고자 하는 메시지를 명확히 하세요.</li>
+                        <li><strong>일관된 색상:</strong> 2-3가지 색상으로 통일감을 주세요.</li>
+                        <li><strong>큰 숫자:</strong> 핵심 수치는 크고 굵게 표시하세요.</li>
+                        <li><strong>충분한 여백:</strong> 요소들 사이에 여백을 두어 가독성을 높이세요.</li>
+                    </ul>
+                    <p>
+                        더 자세한 팁은 <Link href="/tips">인포그래픽 제작 팁</Link> 페이지에서 확인하세요.
+                    </p>
                 </section>
 
                 {/* CTA */}

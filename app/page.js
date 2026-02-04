@@ -62,18 +62,8 @@ export default function Home() {
         setSelectedColor(recommendedColor);
     }, [category]);
 
-    if (!isLoaded) {
-        return (
-            <div className="container" style={{
-                minHeight: '100vh',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center'
-            }}>
-                <div className="animate-pulse" style={{ fontSize: '2rem' }}>📊</div>
-            </div>
-        );
-    }
+    // 로딩 중에도 SEO를 위한 기본 콘텐츠 구조는 유지
+    // Google 봇이 콘텐츠를 인식할 수 있도록 함
 
     return (
         <div className="container">
