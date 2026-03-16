@@ -83,7 +83,7 @@ export default function RootLayout({ children }) {
                     }}
                 />
 
-                {/* 구조화된 데이터 */}
+                {/* 구조화된 데이터 - WebApplication */}
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{
@@ -100,6 +100,21 @@ export default function RootLayout({ children }) {
                                 "price": "0",
                                 "priceCurrency": "KRW"
                             }
+                        })
+                    }}
+                />
+                
+                {/* 구조화된 데이터 - Blog */}
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify({
+                            "@context": "https://schema.org",
+                            "@type": "Blog",
+                            "@id": "https://infographic-maker.vercel.app/blog",
+                            "name": "InfoMaker 블로그",
+                            "description": "데이터 시각화와 인포그래픽 디자인에 대한 심층 전문가 가이드",
+                            "url": "https://infographic-maker.vercel.app/blog"
                         })
                     }}
                 />

@@ -32,6 +32,7 @@ export default function GuidePage() {
                 </Link>
                 <nav className="header-nav">
                     <Link href="/about" className="nav-link">소개</Link>
+                    <Link href="/blog" className="nav-link">블로그</Link>
                     <Link href="/tips" className="nav-link">팁</Link>
                     <Link href="/examples" className="nav-link">예제</Link>
                     <Link href="/faq" className="nav-link">FAQ</Link>
@@ -168,6 +169,19 @@ export default function GuidePage() {
                         이 링크를 통해 다른 사람과 인포그래픽을 공유할 수 있습니다.
                         링크를 받은 사람도 동일한 인포그래픽을 보고, 필요하면 수정할 수 있습니다.
                     </p>
+                </section>
+
+                <section className="content-section">
+                    <h2>💡 인포그래픽 디자인의 3대 핵심 원칙 (Educational Insight)</h2>
+                    <p>
+                        단순히 예쁜 도표를 넘어 목적을 달성하는 인포그래픽을 만들기 위해서는 다음 3가지 원칙을 기억하세요. 
+                        더 자세한 이론은 <Link href="/blog">InfoMaker 블로그</Link>에서 학습하실 수 있습니다.
+                    </p>
+                    <ul>
+                        <li><strong>단순성 (Simplicity):</strong> 불필요한 장식이나 너무 많은 데이터를 제거하세요. 핵심 메시지 하나에 집중하여 데이터-잉크 비율을 높일 때 정보 전달력이 극대화됩니다.</li>
+                        <li><strong>명료성 (Clarity):</strong> 색상 대비와 타이포그래피 계층을 활용하여 청중의 시선을 유도하세요. 가장 중요한 숫자가 화면에서 가장 먼저 눈에 띄어야 합니다.</li>
+                        <li><strong>맥락성 (Context):</strong> 단순한 숫자의 나열 대신 명확한 비교 대상을 함께 제공하세요 (예: 전년 대비, 목표 대비 등). 맥락이 주어질 때 비로소 &apos;데이터&apos;가 살아있는 &apos;정보&apos;가 됩니다.</li>
+                    </ul>
                 </section>
 
                 <section className="content-section">

@@ -81,8 +81,8 @@ export default function Home() {
                     <Link href="/guide" className="quick-link">
                         <span>📖</span> 사용 가이드
                     </Link>
-                    <Link href="/tips" className="quick-link">
-                        <span>💡</span> 제작 팁
+                    <Link href="/blog" className="quick-link">
+                        <span>📝</span> 블로그
                     </Link>
                     <Link href="/examples" className="quick-link">
                         <span>🎨</span> 예제 보기
@@ -213,6 +213,39 @@ export default function Home() {
                         <h4>사내 커뮤니케이션</h4>
                         <p>팀 성과, 프로젝트 현황 공유</p>
                     </div>
+                </div>
+            </section>
+
+            {/* 최신 블로그 글 섹션 */}
+            <section className="features-section" style={{ marginTop: 'var(--space-2xl)' }}>
+                <h2 className="features-title">📚 인포그래픽 제작 노하우</h2>
+                <p className="features-subtitle">
+                    데이터 시각화와 디자인에 대한 전문가의 팁을 확인하세요
+                </p>
+                <div className="features-grid">
+                    <div className="feature-card">
+                        <div className="feature-icon">📊</div>
+                        <h3><Link href="/blog/data-visualization-basics" style={{color: 'inherit', textDecoration: 'none'}}>데이터 시각화 기초</Link></h3>
+                        <p>6가지 기본 차트 유형과 목적별 선택 가이드를 알아봅니다.</p>
+                        <Link href="/blog/data-visualization-basics" style={{marginTop: '10px', display: 'inline-block', color: 'var(--primary)', fontWeight: 'bold'}}>읽기 →</Link>
+                    </div>
+                    <div className="feature-card">
+                        <div className="feature-icon">🎨</div>
+                        <h3><Link href="/blog/color-psychology-marketing" style={{color: 'inherit', textDecoration: 'none'}}>마케팅 색상 심리학</Link></h3>
+                        <p>브랜드 색상이 소비자의 구매 결정에 미치는 영향을 분석합니다.</p>
+                        <Link href="/blog/color-psychology-marketing" style={{marginTop: '10px', display: 'inline-block', color: 'var(--primary)', fontWeight: 'bold'}}>읽기 →</Link>
+                    </div>
+                    <div className="feature-card">
+                        <div className="feature-icon">📈</div>
+                        <h3><Link href="/blog/business-report-visualization" style={{color: 'inherit', textDecoration: 'none'}}>비즈니스 보고서 전략</Link></h3>
+                        <p>경영진을 설득하는 데이터 시각화의 7가지 핵심 전략을 소개합니다.</p>
+                        <Link href="/blog/business-report-visualization" style={{marginTop: '10px', display: 'inline-block', color: 'var(--primary)', fontWeight: 'bold'}}>읽기 →</Link>
+                    </div>
+                </div>
+                <div style={{ textAlign: 'center', marginTop: 'var(--space-xl)' }}>
+                    <Link href="/blog" className="btn-secondary">
+                        블로그 전체 보기 →
+                    </Link>
                 </div>
             </section>
 

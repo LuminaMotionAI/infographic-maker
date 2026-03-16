@@ -31,6 +31,7 @@ export default function AboutPage() {
                     <span className="logo-text">InfoMaker</span>
                 </Link>
                 <nav className="header-nav">
+                    <Link href="/blog" className="nav-link">블로그</Link>
                     <Link href="/guide" className="nav-link">가이드</Link>
                     <Link href="/tips" className="nav-link">팁</Link>
                     <Link href="/examples" className="nav-link">예제</Link>
@@ -45,16 +46,31 @@ export default function AboutPage() {
                 <section className="content-section">
                     <h2>InfoMaker란?</h2>
                     <p>
-                        InfoMaker는 누구나 쉽게 전문적인 인포그래픽을 만들 수 있는
-                        <strong>무료 온라인 인포그래픽 생성 도구</strong>입니다.
+                        InfoMaker는 직장인, 학생, 마케터 누구나 무료로 사용할 수 있는
+                        <strong>온라인 데이터 시각화 도구</strong>입니다. 강력하지만 사용법이 매우 간결하여
+                        데이터 디자이너가 아니더라도 수 분 안에 전문적인 인포그래픽을 완성할 수 있습니다.
                     </p>
                     <p>
-                        복잡한 디자인 도구를 배우지 않아도, 숫자와 텍스트만 입력하면
-                        자동으로 아름다운 인포그래픽이 생성됩니다.
+                        <strong>모든 처리는 사용자의 브라우저 내에서 안전하게(Client-side) 이루어지며,</strong>
+                        사용자가 입력한 데이터는 서버에 전송되거나 저장되지 않습니다. 
+                        금융 데이터나 민감한 비즈니스 성과 보고서도 안심하고 시각화할 수 있습니다.
                     </p>
+                </section>
+
+                <section className="content-section">
+                    <h2>왜 데이터 시각화가 중요할까요? (Educational Insight)</h2>
                     <p>
-                        비즈니스 보고서, SNS 마케팅, 교육 자료, 블로그 콘텐츠 등
-                        다양한 목적에 활용할 수 있는 시각 자료를 빠르게 만들 수 있습니다.
+                        매일 쏟아지는 정보의 바다 속에서 텍스트 기반의 메시지는 독자들의 주의력을 끌기 매우 어렵습니다.
+                        데이터 시각화는 이러한 정보 과부하 시대에 필수적인 커뮤니케이션 도구입니다.
+                    </p>
+                    <ul>
+                        <li><strong>60,000배 빠른 처리:</strong> 인간의 뇌는 텍스트보다 시각적 이미지를 6만 배 현저하게 빠르게 인지하고 처리합니다.</li>
+                        <li><strong>기억률 65%:</strong> 3일 후 정보 기억률을 볼 때, 구두 전달의 경우 10%에 그치는 반면 그림을 포함하면 65%까지 유의미하게 향상됩니다. (Brain Rules 데이터)</li>
+                        <li><strong>설득력 강화:</strong> 비즈니스 미팅에서 시각화 도구를 사용한 프레젠테이션은 그렇지 않은 발표에 비해 성공 확률을 43% 높여줍니다.</li>
+                    </ul>
+                    <p>
+                        InfoMaker는 위와 같은 시각화의 힘을 누구나 쉽게 누릴 수 있도록 탄생했습니다.
+                        원론적인 시각화 도구를 학습할 시간 없이 즉각적인 비즈니스 효과를 원한다면 InfoMaker가 최적의 솔루션입니다.
                     </p>
                 </section>
 
