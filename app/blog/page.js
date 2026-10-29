@@ -9,7 +9,7 @@ import '@/styles/components.css';
 export const metadata = {
     title: '블로그 | InfoMaker - 데이터 시각화 & 인포그래픽 가이드',
     description: '데이터 시각화, 인포그래픽 디자인, 색상 심리학, SNS 마케팅 전략 등 실무에 바로 적용할 수 있는 심층 교육 콘텐츠를 제공합니다.',
-    keywords: '데이터 시각화 블로그, 인포그래픽 가이드, 색상 심리학, SNS 마케팅, 비즈니스 보고서',
+    keywords: '데이터 시각화 블로그, 인포그래픽 가이드, 색상 심리학, SNS 마케팅, 비즈니스 보고서, 차트 선택, 데이터 클리닝',
     openGraph: {
         title: '블로그 | InfoMaker',
         description: '데이터 시각화와 인포그래픽에 대한 심층 교육 콘텐츠',
@@ -21,6 +21,78 @@ export const metadata = {
 };
 
 const articles = [
+    {
+        slug: 'chart-selection-guide',
+        title: '데이터 목적별 차트 선택 완벽 가이드: 올바른 시각화 유형 고르기',
+        description: '비교, 추세, 구성비, 상관관계 등 분석 목적에 따라 막대, 꺾은선, 원형, 히트맵을 고르는 실무 기준과 왜곡 방지법을 소개합니다.',
+        category: '데이터 시각화',
+        date: '2026-03-25',
+        readTime: '9분',
+        icon: '📈',
+    },
+    {
+        slug: 'accessibility-in-data-visualization',
+        title: '웹 접근성을 고려한 데이터 시각화: 모두가 읽을 수 있는 디자인',
+        description: '색약자, 저시력자를 포함한 모든 독자가 편안하게 수치를 이해할 수 있도록 WCAG 명도 대비 및 보색 팔레트 설계법을 안내합니다.',
+        category: '디자인 원칙',
+        date: '2026-03-28',
+        readTime: '8분',
+        icon: '♿',
+    },
+    {
+        slug: 'storytelling-with-data-framework',
+        title: '데이터 스토리텔링 4단계 프레임워크: 숫자를 행동으로 바꾸는 기술',
+        description: '지루한 통계 수치를 청중의 마음을 움직이는 비즈니스 스토리로 전환하는 맥락 설정, 갈등 제시, 클라이맥스 도출법을 알아봅니다.',
+        category: '스토리텔링',
+        date: '2026-04-02',
+        readTime: '9분',
+        icon: '📖',
+    },
+    {
+        slug: 'infographic-mistakes-to-avoid',
+        title: '인포그래픽 제작 시 피해야 할 7가지 치명적인 실수',
+        description: '정보 과적, 폰트 혼용, 잘려나간 Y축 기준선, 비율 왜곡 등 실무에서 가장 빈번하게 발생하는 오류와 교정 노하우를 정리했습니다.',
+        category: '디자인 팁',
+        date: '2026-04-08',
+        readTime: '8분',
+        icon: '⚠️',
+    },
+    {
+        slug: 'mobile-friendly-infographic-design',
+        title: '모바일 환경에 최적화된 인포그래픽 디자인 가이드',
+        description: '스마트폰 화면에서 한눈에 들어오는 1:1 및 4:5 비율, 모바일 가독 폰트 크기, 카드형 분할 레이아웃 원칙을 소개합니다.',
+        category: '모바일 UX',
+        date: '2026-04-14',
+        readTime: '7분',
+        icon: '📱',
+    },
+    {
+        slug: 'how-to-present-financial-metrics',
+        title: '투자자와 경영진을 설득하는 재무 지표 및 KPI 시각화',
+        description: 'MRR, CAC, LTV 등 복잡한 경영 지표를 절대 수치와 전년비 증감률로 정돈하여 강력한 임팩트를 주는 카드 시각화 전략입니다.',
+        category: '비즈니스',
+        date: '2026-04-20',
+        readTime: '9분',
+        icon: '💰',
+    },
+    {
+        slug: 'color-contrast-and-hierarchy',
+        title: '시선을 사로잡는 시각적 위계(Visual Hierarchy)와 색상 대비 원칙',
+        description: '황금 배색 공식 60-30-10 법칙과 여백, 크기, 볼드를 활용해 3초 안에 핵심 숫자가 눈에 들어오게 만드는 레이아웃 법칙입니다.',
+        category: '디자인 원칙',
+        date: '2026-04-26',
+        readTime: '8분',
+        icon: '🎯',
+    },
+    {
+        slug: 'data-cleaning-before-visualization',
+        title: '시각화 전 필수 체크리스트: 데이터 정제(Data Cleaning) 5단계',
+        description: '결측치, 이상치, 중복값 및 단위 불일치를 시각화 전에 완벽하게 검증하고 통계 왜곡을 방지하는 실무 전처리 체크리스트입니다.',
+        category: '데이터 분석',
+        date: '2026-05-02',
+        readTime: '8분',
+        icon: '🧹',
+    },
     {
         slug: 'data-visualization-basics',
         title: '데이터 시각화의 기초: 초보자를 위한 완벽 가이드',
@@ -95,10 +167,9 @@ export default function BlogPage() {
             </header>
 
             <main className="legal-content blog-content">
-                <h1>📝 InfoMaker 블로그</h1>
+                <h1>📝 InfoMaker 전문 지식 블로그</h1>
                 <p className="page-description">
-                    데이터 시각화, 디자인, 마케팅에 대한 심층 가이드와 실무 노하우를 공유합니다.
-                    인포그래픽 제작에 필요한 전문 지식을 쌓아보세요.
+                    데이터 시각화, 그래픽 디자인, 색채 심리학, 비즈니스 KPI 전달법에 대한 총 14편의 심층 가이드를 제공합니다.
                 </p>
 
                 <section className="content-section">

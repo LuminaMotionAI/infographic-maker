@@ -2,97 +2,145 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://infographic-maker.vercel.app/</loc>
-    <lastmod>2026-02-04</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://infographic-maker.vercel.app/about</loc>
-    <lastmod>2026-02-04</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://infographic-maker.vercel.app/guide</loc>
-    <lastmod>2026-02-04</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://infographic-maker.vercel.app/faq</loc>
-    <lastmod>2026-02-04</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://infographic-maker.vercel.app/tips</loc>
-    <lastmod>2026-02-04</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://infographic-maker.vercel.app/examples</loc>
-    <lastmod>2026-02-04</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://infographic-maker.vercel.app/terms</loc>
-    <lastmod>2026-02-04</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://infographic-maker.vercel.app/privacy</loc>
-    <lastmod>2026-02-04</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://infographic-maker.vercel.app/contact</loc>
-    <lastmod>2026-02-04</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://infographic-maker.vercel.app/blog</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://infographic-maker.vercel.app/blog/chart-selection-guide</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://infographic-maker.vercel.app/blog/accessibility-in-data-visualization</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://infographic-maker.vercel.app/blog/storytelling-with-data-framework</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://infographic-maker.vercel.app/blog/infographic-mistakes-to-avoid</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://infographic-maker.vercel.app/blog/mobile-friendly-infographic-design</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://infographic-maker.vercel.app/blog/how-to-present-financial-metrics</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://infographic-maker.vercel.app/blog/color-contrast-and-hierarchy</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://infographic-maker.vercel.app/blog/data-cleaning-before-visualization</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://infographic-maker.vercel.app/blog/data-visualization-basics</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://infographic-maker.vercel.app/blog/color-psychology-marketing</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://infographic-maker.vercel.app/blog/business-report-visualization</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://infographic-maker.vercel.app/blog/sns-infographic-strategy</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://infographic-maker.vercel.app/blog/presentation-data-design</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://infographic-maker.vercel.app/blog/infographic-typography-guide</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
